@@ -2,17 +2,9 @@ import type { ReactNode } from "react";
 
 export type Tone =
   // semantic tones used across the app
-  | "leaf"
-  | "water"
-  | "care"
-  | "warning"
-  | "neutral"
+  | "leaf" |"water" |"care" |"warning" |"neutral"
   // also allow raw color tones (in case you use them elsewhere)
-  | "emerald"
-  | "sky"
-  | "amber"
-  | "rose"
-  | "gray";
+  | "emerald" |"sky" |"amber" |"rose" |"gray";
 
 const toneStyles: Record<Tone, string> = {
   // semantic tones
