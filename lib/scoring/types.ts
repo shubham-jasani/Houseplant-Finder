@@ -1,12 +1,5 @@
 export type Attribute =
-  | "light"
-  | "careTime"
-  | "watering"
-  | "dryAirTolerance"
-  | "size"
-  | "petSafety"
-  | "growthRate"
-  | "form";
+  | "light" |"careTime" |"watering" |"dryAirTolerance" |"size" |"petSafety" |"growthRate" |"form";
 
 /**
  * Narrow, correct value types for each attribute.
